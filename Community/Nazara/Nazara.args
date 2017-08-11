@@ -1,0 +1,1 @@
+-wCompiler=_LibRT_mingw -m32 -std=c++14 -g  -DNAZARA_DEBUG   -I . -L ./ -I NazaraEngine\SDK\include -I NazaraEngine\SDK\src  -I NazaraEngine\src -I NazaraEngine\include  -I NazaraEngine\extlibs\include -L NazaraEngine\extlibs\lib\common\(wArchPC) -L NazaraEngine\extlibs\lib\mingw\(wArchPC) -L NzBuild\lib\(wOpt)_(wArch)\Dynamic -L NzBuild\lib\(wOpt)_(wArch)\Static 

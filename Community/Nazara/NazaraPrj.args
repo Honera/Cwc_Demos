@@ -1,0 +1,1 @@
+ @Nazara.args -lNazaraSDK  -lNazaraCore -lNazaraNoise -lNazaraLua -lNazaraPhysics -lNazaraRenderer -lNazaraNetwork -lNazaraUtility -lNazaraAudio -lNazaraGraphics 
