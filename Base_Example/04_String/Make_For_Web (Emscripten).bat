@@ -1,2 +1,2 @@
 @echo off
-Make.bat -wPlatform Web_Emsc 
+Make.bat -wCompiler Honera/WebRT

@@ -1,2 +1,2 @@
 @echo off
-Make.bat -wPlatform Windows 
+Make.bat  -wCompiler Honera/LibRT

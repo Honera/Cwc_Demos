@@ -8,6 +8,7 @@ FOR /L %%G IN (1,1,5) DO (if not exist cwc.exe ( cd.. ))
  
 ::  /-------------------Start----------------------/
  %cwc% -wDir %~dp0 %* "|"^
- -c src/ -o obj/(wPlatform)/ -wTo _out/(wPlatform)/App.exe -O2 -std=c++11 "|"^
+ -c src/ -o obj/(wPlatform)/ -wTo _out/(wPlatform)/App.* -std=c++11  -O2 "|"^
+ 
  
 ::  /--------------------End----------------------/

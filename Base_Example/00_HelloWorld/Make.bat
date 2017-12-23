@@ -13,3 +13,5 @@ FOR /L %%G IN (1,1,5) DO (if not exist cwc.exe ( cd.. ))
  -o _out/(wPlatform)/App.exe HelloWorld.o
  
 ::  /--------------------End----------------------/
+
+pause

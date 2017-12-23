@@ -1,1 +1,0 @@
-Call Mk_Cwc_Emsc.bat -wBuildAnd Sanitize %*
