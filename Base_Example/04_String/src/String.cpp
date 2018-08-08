@@ -2,6 +2,7 @@
 #include <GZE.h>
 #include <Main>
 
+extern "C" Lib_GZ::uLib* IniLib_Lib_GZ(){return NULL;};//TEMP
 
 //Method #1, Optimised way to pass string in Read Only, we can pass string without any reference counting ('_gzStr8', with underscore prefix)
 gzStr8 fStringPassInFunction_Optimised( _gzStr8 _sTest ){

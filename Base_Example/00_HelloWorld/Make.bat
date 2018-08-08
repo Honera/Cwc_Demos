@@ -2,16 +2,11 @@
 ::   /------- Find Cwc (if not set in your Environement variables) ---------/
 set cwc=cwc
 FOR /L %%G IN (1,1,5) DO (if not exist cwc.exe ( cd.. ))
+cd %~dp0
 
-::  /--  Run Cwc.exe, with this batch file folder as working directory (% -wDir %~dp0) and pass all is arguments (%*)    --/
-::  /--  All arguments lines finish with a pipe ("|"^) which mean a parallel actions, or (">"^) for sequentials actions  --/
- 
-::  /-------------------Start----------------------/
- %cwc% -wDir %~dp0 %* "|"^
- -c HelloWorld.cpp -o HelloWorld.o -O2 -std=c++11 "|"^
- ">"^
- -o _out/(wPlatform)/App.exe HelloWorld.o
- 
-::  /--------------------End----------------------/
+%cwc% Make.cwMake
+
+::  Equivalent (If cwc is set in Environement variables):
+::  cwc Make.cwMake
 
 pause

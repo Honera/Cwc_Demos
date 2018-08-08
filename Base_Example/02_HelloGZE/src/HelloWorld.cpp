@@ -2,7 +2,6 @@
 #include <GZE.h>
 #include <Main>
 
-
 gzInt Main(gzText8 _sArg, gzUIntX _nId, gzInt _nCmd){
 	
 	return 1; // 1 Still Alive, 0 Stop, < 0 Errors
