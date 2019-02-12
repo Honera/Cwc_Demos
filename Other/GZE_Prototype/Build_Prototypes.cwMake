@@ -1,0 +1,2 @@
+;Register Cwc before using a .cwmake
+(CWayv) -p "E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/Engine_(GZ)/" -p "E:/_Project/Cwc/Lib/VLiance/GZE/GZE-0.2.0/cw/Wrapper_(GZ)/" -o "E:/_Project/Cwc/_Cwc_Demos/Cwc_Demos-0.0.6/Build/GZE_Prototype/Lib_GZ.js"
